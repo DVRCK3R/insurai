@@ -1,0 +1,24 @@
+# Secrets — never commit these
+backend/firebase-key.json
+backend/.env
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+*.pkl
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Jupyter
+notebooks/.ipynb_checkpoints/
+notebooks/*.png
+
+# OS
+.DS_Store

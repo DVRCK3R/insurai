@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+
+# Local Python environments and generated files
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+
+# Credentials and private keys
+firebase-key.json
+*firebase-adminsdk*.json
+*.pem
+
+# Local-only data and training artifacts
+Car_Insurance_Claim.csv
+notebooks/
+
+# Documentation and editor-specific settings are not part of this backend push
+*.md
+
+.vscode/

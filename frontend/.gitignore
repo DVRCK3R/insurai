@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.vite/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Local logs
+*.log
+
+*.package-lock.json
+
+*.md
+* .firebase.js
