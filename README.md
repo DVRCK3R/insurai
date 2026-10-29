@@ -28,8 +28,6 @@ insurai/
 │       └── services/
 ├── notebooks/
 │   └── model_training.ipynb
-├── docs/
-│   └── SETUP.md
 ├── .gitignore
 └── README.md
 ```
