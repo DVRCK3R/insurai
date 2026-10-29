@@ -7,38 +7,31 @@ assessment and generate instant premium quotes.
 
 ## Project Structure
 
+### View project directory
+
+```text
 insurai/
-├── backend/              # Python Flask API
-│   ├── app.py            # Main Flask app entry point
-│   ├── config.py         # Firebase + app config
-│   ├── requirements.txt  # Python dependencies
+├── backend/
+│   ├── app.py
+│   ├── config.py
+│   ├── requirements.txt
 │   ├── models/
-│   │   └── risk_model.py # ML model loader & predictor
 │   ├── routes/
-│   │   ├── quote.py      # /api/quote endpoint
-│   │   ├── ocr.py        # /api/ocr endpoint
-│   │   └── auth.py       # /api/auth endpoint
 │   └── utils/
-│       ├── firebase.py   # Firebase Admin SDK helpers
-│       └── preprocessing.py # Feature engineering
-├── frontend/             # React.js UI
+├── frontend/
 │   ├── package.json
 │   └── src/
 │       ├── App.jsx
 │       ├── components/
-│       │   ├── QuoteForm.jsx
-│       │   ├── ResultCard.jsx
-│       │   └── FileUpload.jsx
 │       ├── pages/
-│       │   ├── Home.jsx
-│       │   └── Dashboard.jsx
 │       └── services/
-│           ├── api.js    # Axios API calls
-│           └── firebase.js # Firebase client SDK
 ├── notebooks/
-│   └── model_training.ipynb  # Jupyter notebook for ML training
-└── docs/
-    └── SETUP.md
+│   └── model_training.ipynb
+├── docs/
+│   └── SETUP.md
+├── .gitignore
+└── README.md
+```
 
 ---
 
