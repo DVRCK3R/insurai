@@ -1,0 +1,10 @@
+age
+gender
+driving_experience
+vehicle_ownership
+annual_mileage
+vehicle_type
+speeding_violations
+duis
+young_driver
+senior_driver
