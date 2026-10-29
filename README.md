@@ -7,7 +7,8 @@ assessment and generate instant premium quotes.
 
 ## Project Structure
 
-### View project directory
+<details>
+<summary>View project directory</summary>
 
 ```text
 insurai/
@@ -32,6 +33,8 @@ insurai/
 ├── .gitignore
 └── README.md
 ```
+
+</details>
 
 ---
 
